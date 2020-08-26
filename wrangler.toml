@@ -1,0 +1,15 @@
+name = "hello-world"
+type = "javascript"
+account_id = "6fa62788cf82a022a73238d0016603a8"
+workers_dev = true
+
+[env.development]
+
+route = "villa-lagarto.com/worker/dev"
+zone_id = "16976c70f49c8d7ed0c29f8bea5079c9"
+
+[env.production]
+
+
+route = "villa-lagarto.com/worker"
+zone_id = "16976c70f49c8d7ed0c29f8bea5079c9"
